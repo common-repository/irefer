@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    overflow-x: hidden;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+body{margin:0;padding:0;font-family: 'robotoregular'; font-weight:400}
+.form-wrapper{width: 704px;margin:0 auto;font-family: 'robotoregular';}
+.form-wrapper .form-header{
+    font-family: 'robotoregular';
+    width: 100%;
+    height: 72px;
+    background-color: #162231;	
+    padding:13px 17px;
+    box-sizing:border-box
+}
+.form-wrapper .form-header .logo {width: 204px; height: 46px;}
+.form-wrapper .form-content {
+    width: 100%;
+    height: 641px;
+    box-sizing:border-box;
+    background-color: #eceff1;
+    padding:130px 45px 64px;
+    font-family: 'robotoregular';
+}
+.form-wrapper .form-content h1,
+.irefer-sign-ups h2{font-size: 32px; font-weight:600;color: #263238;margin:0 0 20px;padding:0;font-family: 'robotoregular';}
+.form-wrapper .form-content h6{font-size: 18px;color: #455a64;margin:0 0 5px ;padding:0;font-family: 'robotoregular';}
+.form-wrapper .form-content .form-des{font-size: 16px;color: #455a64;margin:0;padding:0;max-width:590px;font-family: 'robotoregular';line-height: 22px;}
+.form-wrapper .form-content .form-des a{color:#3aa1f3;text-decoration:underline;font-family: 'robotoregular'; line-height:22px;}
+.form-wrapper .form-content .input-field{font-family: 'robotoregular';width: 464px;height: 46px;border-radius: 3px;background-color: #ffffff;border: solid 1px #cfd8dc;  border:silver solid 1px;padding:8px 10px;box-sizing:border-box;margin:20px 0;font-size:16px;color:#666;float:left}
+.form-wrapper .form-content .add-code{font-family: 'robotoregular';width: 138px;height: 46px;border-radius: 3px;background-color: #E91E63; box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.2);border:none;color:#fff;font-size:16px; float:right;margin:20px 0;cursor:pointer;transition: all 1s ease 0s ;}
+.form-wrapper .form-content .add-code:hover{background-color:#E91E63}
+.form-wrapper .form-content p.sucess{font-family: 'robotoregular';width:auto;height: 19px;font-size: 16px;color: #455a64;margin-top:0;float:left;background:transparent url(../img/sucess.png) right center no-repeat;padding-right:40px;min-height:24px;}
+.form-wrapper .form-content .shape {font-family: 'robotoregular';width: 20px;height: 20px;background-color: #4caf50;display:block;border-radius:50%;float:left;margin-left:10px;}
+.form-wrapper .form-content .line {font-family: 'robotoregular';width: 608px;height: 3px;border-bottom: solid 1px #cfd8dc;font-size:0;line-height:0;margin:17px 0 37px;}
+.irefer_signup_tooltip { width:700px;}
